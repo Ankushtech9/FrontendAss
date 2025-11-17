@@ -1,1 +1,79 @@
 
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<nav>
+<div>NovaTech</div>
+<ul>
+<li><a href="#ser">Services</a></li>
+<li><a href="#abt">About</a></li>
+<li><a href="#con">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<h1>Welcome to NovaTech</h1>
+<p>Simple digital solutions for you</p>
+</div>
+
+<section id="ser" class="sec">
+<h2>Services</h2><br>
+<div class="s-row">
+<div class="card">
+<h3>Web Dev</h3>
+<p>Simple websites</p>
+</div>
+<div class="card">
+<h3>App Dev</h3>
+<p>Basic apps</p>
+</div>
+<div class="card">
+<h3>Cloud</h3>
+<p>Cloud setup</p>
+</div>
+</div>
+</section>
+
+<section id="abt" class="sec">
+<h2>About</h2><br>
+<div class="abox">
+<img src="https://via.placeholder.com/350">
+<div>
+<p>We make simple digital projects.</p>
+<p>We help small businesses grow.</p>
+</div>
+</div>
+</section>
+
+<section class="sec">
+<h2>Testimonials</h2><br>
+<div class="t-row">
+<div class="tbox"><p>"Good work"</p><h4>- Alex</h4></div>
+<div class="tbox"><p>"Nice design"</p><h4>- Priya</h4></div>
+<div class="tbox"><p>"Super!"</p><h4>- John</h4></div>
+</div>
+</section>
+
+<section id="con" class="sec">
+<h2>Contact</h2><br>
+<form>
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<textarea rows="3" placeholder="Message"></textarea>
+<button>Send</button>
+</form>
+</section>
+
+<footer>
+<p>© 2025 NovaTech</p>
+</footer>
+
+</body>
+</html>
